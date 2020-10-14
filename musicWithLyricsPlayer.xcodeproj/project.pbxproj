@@ -7,19 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A278782B2536B6D500A7DFF3 /* SongInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A278782A2536B6D500A7DFF3 /* SongInfo.swift */; };
+		A278782D2536BAED00A7DFF3 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = A278782C2536BAED00A7DFF3 /* Song.swift */; };
+		A278782F2536C2AF00A7DFF3 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A278782E2536C2AF00A7DFF3 /* MyTableViewCell.swift */; };
+		A27878312536C43D00A7DFF3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27878302536C43D00A7DFF3 /* SecondViewController.swift */; };
+		A27878332536D12800A7DFF3 /* SongManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27878322536D12800A7DFF3 /* SongManager.swift */; };
+		A27878362536EE5200A7DFF3 /* SongData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27878352536EE5200A7DFF3 /* SongData.swift */; };
+		A27878382536F0A000A7DFF3 /* SongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27878372536F0A000A7DFF3 /* SongModel.swift */; };
+		A278783A2536FBDC00A7DFF3 /* Numb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A27878392536FBDC00A7DFF3 /* Numb.mp3 */; };
+		A278783C2536FC5D00A7DFF3 /* Happy Now.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A278783B2536FC5D00A7DFF3 /* Happy Now.mp3 */; };
+		A27878402536FCA500A7DFF3 /* The Nights.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A278783F2536FCA500A7DFF3 /* The Nights.mp3 */; };
+		A27878422536FD1C00A7DFF3 /* Don't give up on me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A27878412536FD1C00A7DFF3 /* Don't give up on me.mp3 */; };
+		A27878442536FD4500A7DFF3 /* I Lived.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A27878432536FD4500A7DFF3 /* I Lived.mp3 */; };
+		A27878462536FDA800A7DFF3 /* Confirmation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A27878452536FDA800A7DFF3 /* Confirmation.mp3 */; };
+		A27878482536FDD800A7DFF3 /* What you wanted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A27878472536FDD800A7DFF3 /* What you wanted.mp3 */; };
+		A278784A2536FE1E00A7DFF3 /* Holy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A27878492536FE1E00A7DFF3 /* Holy.mp3 */; };
+		A278784C2536FE5600A7DFF3 /* Unstoppable.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A278784B2536FE5600A7DFF3 /* Unstoppable.mp3 */; };
+		A278784E2536FE9D00A7DFF3 /* Hello.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A278784D2536FE9D00A7DFF3 /* Hello.mp3 */; };
 		A2A730382535BE360087B6F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A730372535BE360087B6F8 /* AppDelegate.swift */; };
 		A2A7303A2535BE360087B6F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A730392535BE360087B6F8 /* SceneDelegate.swift */; };
-		A2A7303C2535BE360087B6F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A7303B2535BE360087B6F8 /* ViewController.swift */; };
+		A2A7303C2535BE360087B6F8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A7303B2535BE360087B6F8 /* FirstViewController.swift */; };
 		A2A7303F2535BE360087B6F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A7303D2535BE360087B6F8 /* Main.storyboard */; };
 		A2A730412535BE3B0087B6F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A730402535BE3B0087B6F8 /* Assets.xcassets */; };
 		A2A730442535BE3B0087B6F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A730422535BE3B0087B6F8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A278782A2536B6D500A7DFF3 /* SongInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongInfo.swift; sourceTree = "<group>"; };
+		A278782C2536BAED00A7DFF3 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		A278782E2536C2AF00A7DFF3 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		A27878302536C43D00A7DFF3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A27878322536D12800A7DFF3 /* SongManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongManager.swift; sourceTree = "<group>"; };
+		A27878352536EE5200A7DFF3 /* SongData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongData.swift; sourceTree = "<group>"; };
+		A27878372536F0A000A7DFF3 /* SongModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongModel.swift; sourceTree = "<group>"; };
+		A27878392536FBDC00A7DFF3 /* Numb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Numb.mp3; path = ../../../../Numb.mp3; sourceTree = "<group>"; };
+		A278783B2536FC5D00A7DFF3 /* Happy Now.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Happy Now.mp3"; sourceTree = "<group>"; };
+		A278783F2536FCA500A7DFF3 /* The Nights.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Nights.mp3"; sourceTree = "<group>"; };
+		A27878412536FD1C00A7DFF3 /* Don't give up on me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Don't give up on me.mp3"; sourceTree = "<group>"; };
+		A27878432536FD4500A7DFF3 /* I Lived.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I Lived.mp3"; sourceTree = "<group>"; };
+		A27878452536FDA800A7DFF3 /* Confirmation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Confirmation.mp3; sourceTree = "<group>"; };
+		A27878472536FDD800A7DFF3 /* What you wanted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "What you wanted.mp3"; sourceTree = "<group>"; };
+		A27878492536FE1E00A7DFF3 /* Holy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Holy.mp3; sourceTree = "<group>"; };
+		A278784B2536FE5600A7DFF3 /* Unstoppable.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Unstoppable.mp3; sourceTree = "<group>"; };
+		A278784D2536FE9D00A7DFF3 /* Hello.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hello.mp3; sourceTree = "<group>"; };
 		A2A730342535BE360087B6F8 /* musicWithLyricsPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicWithLyricsPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A730372535BE360087B6F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2A730392535BE360087B6F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A2A7303B2535BE360087B6F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2A7303B2535BE360087B6F8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		A2A7303E2535BE360087B6F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2A730402535BE3B0087B6F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2A730432535BE3B0087B6F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,13 +92,62 @@
 			children = (
 				A2A730372535BE360087B6F8 /* AppDelegate.swift */,
 				A2A730392535BE360087B6F8 /* SceneDelegate.swift */,
-				A2A7303B2535BE360087B6F8 /* ViewController.swift */,
-				A2A7303D2535BE360087B6F8 /* Main.storyboard */,
+				A2A7304D2535BE5F0087B6F8 /* Model */,
+				A2A7304C2535BE580087B6F8 /* View */,
+				A2A7304B2535BE430087B6F8 /* Controller */,
 				A2A730402535BE3B0087B6F8 /* Assets.xcassets */,
+				A2A7304E2535BE690087B6F8 /* Songs */,
 				A2A730422535BE3B0087B6F8 /* LaunchScreen.storyboard */,
 				A2A730452535BE3B0087B6F8 /* Info.plist */,
+				A278782E2536C2AF00A7DFF3 /* MyTableViewCell.swift */,
 			);
 			path = musicWithLyricsPlayer;
+			sourceTree = "<group>";
+		};
+		A2A7304B2535BE430087B6F8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2A7303B2535BE360087B6F8 /* FirstViewController.swift */,
+				A27878302536C43D00A7DFF3 /* SecondViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A2A7304C2535BE580087B6F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2A7303D2535BE360087B6F8 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2A7304D2535BE5F0087B6F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A278782C2536BAED00A7DFF3 /* Song.swift */,
+				A278782A2536B6D500A7DFF3 /* SongInfo.swift */,
+				A27878322536D12800A7DFF3 /* SongManager.swift */,
+				A27878352536EE5200A7DFF3 /* SongData.swift */,
+				A27878372536F0A000A7DFF3 /* SongModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2A7304E2535BE690087B6F8 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				A27878392536FBDC00A7DFF3 /* Numb.mp3 */,
+				A278783B2536FC5D00A7DFF3 /* Happy Now.mp3 */,
+				A278783F2536FCA500A7DFF3 /* The Nights.mp3 */,
+				A27878412536FD1C00A7DFF3 /* Don't give up on me.mp3 */,
+				A27878432536FD4500A7DFF3 /* I Lived.mp3 */,
+				A27878452536FDA800A7DFF3 /* Confirmation.mp3 */,
+				A27878472536FDD800A7DFF3 /* What you wanted.mp3 */,
+				A27878492536FE1E00A7DFF3 /* Holy.mp3 */,
+				A278784B2536FE5600A7DFF3 /* Unstoppable.mp3 */,
+				A278784D2536FE9D00A7DFF3 /* Hello.mp3 */,
+			);
+			path = Songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +208,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A27878422536FD1C00A7DFF3 /* Don't give up on me.mp3 in Resources */,
+				A278784A2536FE1E00A7DFF3 /* Holy.mp3 in Resources */,
+				A278784C2536FE5600A7DFF3 /* Unstoppable.mp3 in Resources */,
+				A278783A2536FBDC00A7DFF3 /* Numb.mp3 in Resources */,
 				A2A730442535BE3B0087B6F8 /* LaunchScreen.storyboard in Resources */,
+				A278783C2536FC5D00A7DFF3 /* Happy Now.mp3 in Resources */,
 				A2A730412535BE3B0087B6F8 /* Assets.xcassets in Resources */,
+				A27878462536FDA800A7DFF3 /* Confirmation.mp3 in Resources */,
 				A2A7303F2535BE360087B6F8 /* Main.storyboard in Resources */,
+				A27878482536FDD800A7DFF3 /* What you wanted.mp3 in Resources */,
+				A27878442536FD4500A7DFF3 /* I Lived.mp3 in Resources */,
+				A27878402536FCA500A7DFF3 /* The Nights.mp3 in Resources */,
+				A278784E2536FE9D00A7DFF3 /* Hello.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +231,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2A7303C2535BE360087B6F8 /* ViewController.swift in Sources */,
+				A278782B2536B6D500A7DFF3 /* SongInfo.swift in Sources */,
+				A2A7303C2535BE360087B6F8 /* FirstViewController.swift in Sources */,
 				A2A730382535BE360087B6F8 /* AppDelegate.swift in Sources */,
 				A2A7303A2535BE360087B6F8 /* SceneDelegate.swift in Sources */,
+				A27878312536C43D00A7DFF3 /* SecondViewController.swift in Sources */,
+				A27878362536EE5200A7DFF3 /* SongData.swift in Sources */,
+				A27878382536F0A000A7DFF3 /* SongModel.swift in Sources */,
+				A278782D2536BAED00A7DFF3 /* Song.swift in Sources */,
+				A27878332536D12800A7DFF3 /* SongManager.swift in Sources */,
+				A278782F2536C2AF00A7DFF3 /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
