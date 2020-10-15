@@ -60,7 +60,7 @@ class SecondViewController: UIViewController {
     //Next-Button
     @IBAction func nextPressed(_ sender: UIButton) {
         indexCurrent = arrayOfTitles.firstIndex(of: song)!
-        if indexCurrent != 9{
+        if indexCurrent != 8{
             song = arrayOfTitles[indexCurrent + 1]
             singer = arrayOfSingers[indexCurrent + 1]
         }else{
@@ -91,8 +91,8 @@ class SecondViewController: UIViewController {
             song = arrayOfTitles[indexCurrent - 1]
             singer = arrayOfSingers[indexCurrent - 1]
         }else{
-            song = arrayOfTitles[9]
-            singer = arrayOfSingers[9]
+            song = arrayOfTitles[8]
+            singer = arrayOfSingers[8]
         }
         
         
