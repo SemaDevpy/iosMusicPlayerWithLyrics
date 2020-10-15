@@ -35,7 +35,6 @@ struct SongManager {
         }
         
         let urlString = "\(lyricsURL)\(newArtist)/\(newTitle)"
-        print(urlString)
         performRequest(with : urlString)
     }
     

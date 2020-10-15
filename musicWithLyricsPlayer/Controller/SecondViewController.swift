@@ -17,10 +17,17 @@ class SecondViewController: UIViewController {
     var song : String = ""
 
     var songManager = SongManager()
+    var songInfo = SongInfo()
+    
+    var arrayOfTitles = [String]()
+    var arrayOfSingers = [String]()
+    
+    var indexCurrent = 0
     
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var lyricsTextView: UITextView!
     @IBOutlet weak var playButton: UIButton!
+    @IBOutlet weak var volumeLabel: UISlider!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,18 +37,97 @@ class SecondViewController: UIViewController {
         lyricsTextView.layer.borderWidth = 1
         lyricsTextView.layer.borderColor = CGColor(srgbRed: 0, green: 0, blue: 0, alpha: 1)
     }
+    
+    
     @IBAction func playPressed(_ sender: UIButton) {
         if player?.isPlaying == true{
             playButton.setBackgroundImage(#imageLiteral(resourceName: "play"), for: .normal)
             player?.stop()
         }else{
             playButton.setBackgroundImage(#imageLiteral(resourceName: "pause"), for: .normal)
-            playMusic()
+            playMusic(with: song)
         }
         
     }
     
-    func playMusic(){
+    @IBAction func nextPressed(_ sender: UIButton) {
+        for item in songInfo.songsArray{
+            arrayOfTitles.append(item.title)
+        }
+        for item in songInfo.songsArray{
+            arrayOfSingers.append(item.singer)
+        }
+        
+        
+        indexCurrent = arrayOfTitles.firstIndex(of: song)!
+        if indexCurrent != 9{
+            song = arrayOfTitles[indexCurrent + 1]
+            singer = arrayOfSingers[indexCurrent + 1]
+        }else{
+            song = arrayOfTitles[0]
+            singer = arrayOfSingers[0]
+        }
+        
+       
+        
+        
+        songManager.fetchLyrics(artist : singer, title : song)
+        
+        
+        
+        
+        DispatchQueue.main.async {
+            self.playButton.setBackgroundImage(#imageLiteral(resourceName: "pause"), for: .normal)
+            self.label.text = "\(self.singer) - \(self.song)"
+            self.playMusic(with: self.song)
+        }
+       
+        
+    }
+    
+    
+    @IBAction func prevPressed(_ sender : UIButton){
+         for item in songInfo.songsArray{
+              arrayOfTitles.append(item.title)
+          }
+          for item in songInfo.songsArray{
+              arrayOfSingers.append(item.singer)
+          }
+          
+          
+          indexCurrent = arrayOfTitles.firstIndex(of: song)!
+        
+        if indexCurrent != 0{
+            song = arrayOfTitles[indexCurrent - 1]
+            singer = arrayOfSingers[indexCurrent - 1]
+        }else{
+            song = arrayOfTitles[9]
+            singer = arrayOfSingers[9]
+        }
+          
+         
+          
+          
+          songManager.fetchLyrics(artist : singer, title : song)
+          
+          
+          
+          
+          DispatchQueue.main.async {
+              self.playButton.setBackgroundImage(#imageLiteral(resourceName: "pause"), for: .normal)
+              self.label.text = "\(self.singer) - \(self.song)"
+            self.playMusic(with: self.song)
+          }
+    }
+    
+    
+    @IBAction func volumeSlider(_ sender: UISlider) {
+        player?.volume = sender.value
+    }
+    
+    
+    
+    func playMusic(with song : String){
         let soundURl = Bundle.main.url(forResource: "\(song)", withExtension: "mp3")
         do{
             try player =  AVAudioPlayer(contentsOf: soundURl!)

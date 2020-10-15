@@ -112,11 +112,49 @@
                                                     <action selector="playPressed:" destination="WDA-Yk-rSP" eventType="touchUpInside" id="fJH-1R-nke"/>
                                                 </connections>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yub-aV-RYr">
+                                                <rect key="frame" x="280" y="36" width="50" height="45"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="45" id="5gQ-j3-H4V"/>
+                                                    <constraint firstAttribute="width" constant="50" id="XPH-2f-uEn"/>
+                                                </constraints>
+                                                <state key="normal" backgroundImage="next"/>
+                                                <connections>
+                                                    <action selector="nextPressed:" destination="WDA-Yk-rSP" eventType="touchUpInside" id="aeP-Cf-Shf"/>
+                                                    <action selector="playPressed:" destination="WDA-Yk-rSP" eventType="touchUpInside" id="ZU2-pe-Iew"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Htf-Bg-gf7">
+                                                <rect key="frame" x="45" y="36" width="50" height="45"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="50" id="Qvw-R8-7w0"/>
+                                                    <constraint firstAttribute="height" constant="45" id="SRR-re-Qml"/>
+                                                </constraints>
+                                                <state key="normal" backgroundImage="prev"/>
+                                                <connections>
+                                                    <action selector="playPressed:" destination="WDA-Yk-rSP" eventType="touchUpInside" id="dUc-nG-2wQ"/>
+                                                    <action selector="prevPressed:" destination="WDA-Yk-rSP" eventType="touchUpInside" id="Oyz-OP-uZw"/>
+                                                </connections>
+                                            </button>
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="hwN-Is-Gax">
+                                                <rect key="frame" x="43" y="106" width="289" height="31"/>
+                                                <color key="maximumTrackTintColor" red="0.32409831880000001" green="0.3421472311" blue="0.36581379180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="volumeSlider:" destination="WDA-Yk-rSP" eventType="valueChanged" id="cxa-s8-W99"/>
+                                                </connections>
+                                            </slider>
                                         </subviews>
                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="145" id="3cl-oH-kMj"/>
+                                            <constraint firstItem="Htf-Bg-gf7" firstAttribute="top" secondItem="Ne8-5Z-VOM" secondAttribute="top" constant="36" id="O9g-Ho-SjC"/>
+                                            <constraint firstAttribute="trailing" secondItem="Yub-aV-RYr" secondAttribute="trailing" constant="45" id="fHJ-BA-VqO"/>
+                                            <constraint firstItem="Htf-Bg-gf7" firstAttribute="leading" secondItem="Ne8-5Z-VOM" secondAttribute="leading" constant="45" id="fv1-KI-Q0a"/>
+                                            <constraint firstAttribute="trailing" secondItem="hwN-Is-Gax" secondAttribute="trailing" constant="45" id="h3W-ND-4ZY"/>
+                                            <constraint firstItem="Yub-aV-RYr" firstAttribute="top" secondItem="Ne8-5Z-VOM" secondAttribute="top" constant="36" id="jEj-xi-wDe"/>
+                                            <constraint firstItem="hwN-Is-Gax" firstAttribute="leading" secondItem="Ne8-5Z-VOM" secondAttribute="leading" constant="45" id="l5z-9c-d1r"/>
                                             <constraint firstItem="TKB-As-Qph" firstAttribute="top" secondItem="Ne8-5Z-VOM" secondAttribute="top" constant="36" id="l8I-Bd-ftP"/>
+                                            <constraint firstItem="hwN-Is-Gax" firstAttribute="top" secondItem="TKB-As-Qph" secondAttribute="bottom" constant="25" id="laz-Dk-fFe"/>
                                             <constraint firstItem="TKB-As-Qph" firstAttribute="centerX" secondItem="Ne8-5Z-VOM" secondAttribute="centerX" id="lzG-o2-l87"/>
                                         </constraints>
                                     </view>
@@ -147,6 +185,7 @@
                         <outlet property="label" destination="eqP-qr-wRW" id="Nfl-Wo-Nlg"/>
                         <outlet property="lyricsTextView" destination="yxD-Wg-I72" id="3j0-Hj-ppP"/>
                         <outlet property="playButton" destination="TKB-As-Qph" id="Rc1-PI-yKE"/>
+                        <outlet property="volumeLabel" destination="hwN-Is-Gax" id="ilp-h9-fiD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ucn-j6-SLz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -179,6 +218,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="next" width="21" height="21"/>
         <image name="play" width="21" height="21"/>
+        <image name="prev" width="21" height="21"/>
     </resources>
 </document>
