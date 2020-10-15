@@ -14,7 +14,6 @@
 		A27878332536D12800A7DFF3 /* SongManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27878322536D12800A7DFF3 /* SongManager.swift */; };
 		A27878362536EE5200A7DFF3 /* SongData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27878352536EE5200A7DFF3 /* SongData.swift */; };
 		A27878382536F0A000A7DFF3 /* SongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27878372536F0A000A7DFF3 /* SongModel.swift */; };
-		A278783A2536FBDC00A7DFF3 /* Numb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A27878392536FBDC00A7DFF3 /* Numb.mp3 */; };
 		A278783C2536FC5D00A7DFF3 /* Happy Now.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A278783B2536FC5D00A7DFF3 /* Happy Now.mp3 */; };
 		A27878402536FCA500A7DFF3 /* The Nights.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A278783F2536FCA500A7DFF3 /* The Nights.mp3 */; };
 		A27878422536FD1C00A7DFF3 /* Don't give up on me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A27878412536FD1C00A7DFF3 /* Don't give up on me.mp3 */; };
@@ -40,7 +39,6 @@
 		A27878322536D12800A7DFF3 /* SongManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongManager.swift; sourceTree = "<group>"; };
 		A27878352536EE5200A7DFF3 /* SongData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongData.swift; sourceTree = "<group>"; };
 		A27878372536F0A000A7DFF3 /* SongModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongModel.swift; sourceTree = "<group>"; };
-		A27878392536FBDC00A7DFF3 /* Numb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Numb.mp3; path = ../../../../Numb.mp3; sourceTree = "<group>"; };
 		A278783B2536FC5D00A7DFF3 /* Happy Now.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Happy Now.mp3"; sourceTree = "<group>"; };
 		A278783F2536FCA500A7DFF3 /* The Nights.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Nights.mp3"; sourceTree = "<group>"; };
 		A27878412536FD1C00A7DFF3 /* Don't give up on me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Don't give up on me.mp3"; sourceTree = "<group>"; };
@@ -136,7 +134,6 @@
 		A2A7304E2535BE690087B6F8 /* Songs */ = {
 			isa = PBXGroup;
 			children = (
-				A27878392536FBDC00A7DFF3 /* Numb.mp3 */,
 				A278783B2536FC5D00A7DFF3 /* Happy Now.mp3 */,
 				A278783F2536FCA500A7DFF3 /* The Nights.mp3 */,
 				A27878412536FD1C00A7DFF3 /* Don't give up on me.mp3 */,
@@ -211,7 +208,6 @@
 				A27878422536FD1C00A7DFF3 /* Don't give up on me.mp3 in Resources */,
 				A278784A2536FE1E00A7DFF3 /* Holy.mp3 in Resources */,
 				A278784C2536FE5600A7DFF3 /* Unstoppable.mp3 in Resources */,
-				A278783A2536FBDC00A7DFF3 /* Numb.mp3 in Resources */,
 				A2A730442535BE3B0087B6F8 /* LaunchScreen.storyboard in Resources */,
 				A278783C2536FC5D00A7DFF3 /* Happy Now.mp3 in Resources */,
 				A2A730412535BE3B0087B6F8 /* Assets.xcassets in Resources */,
